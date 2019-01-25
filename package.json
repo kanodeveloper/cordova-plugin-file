@@ -1,10 +1,10 @@
 {
-  "name": "cordova-plugin-file",
-  "version": "6.0.2-dev",
+  "name": "cordova-plugin-file-ka",
+  "version": "6.0.3",
   "description": "Cordova File Plugin",
   "types": "./types/index.d.ts",
   "cordova": {
-    "id": "cordova-plugin-file",
+    "id": "cordova-plugin-file-ka",
     "platforms": [
       "android",
       "browser",
