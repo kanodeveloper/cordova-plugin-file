@@ -20,8 +20,8 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android"
-           id="cordova-plugin-file"
-      version="6.0.2-dev">
+           id="cordova-plugin-file-ka"
+      version="6.0.3">
     <name>File</name>
     <description>Cordova File Plugin</description>
     <license>Apache 2.0</license>
@@ -131,10 +131,6 @@ to config.xml in order for the application to find previously stored files.
                 <param name="onload" value="true" />
             </feature>
             <allow-navigation href="cdvfile:*" />
-        </config-file>
-
-        <config-file target="AndroidManifest.xml" parent="/*">
-            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         </config-file>
 
         <source-file src="src/android/EncodingException.java" target-dir="src/org/apache/cordova/file" />
